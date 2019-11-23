@@ -1,1 +1,1 @@
-just open [this-page](https://alhaqhassan.github.io/my_gits/auto-skip-youtube-ads.js.html) and drag "Skip Ad" to bookmark
+just open [this-page](https://my_gits.alhacen.cf/auto-skip-youtube-ads.js.html) and drag "Skip Ad" to bookmark
