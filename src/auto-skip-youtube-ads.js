@@ -12,3 +12,8 @@ function __(a){return document.getElementsByClassName(a);}
 	    }else{
 	    }
 	},100)
+function speedController_(e){
+    if(e.keyCode==107){document.getElementsByTagName("video")[0].playbackRate += .25;}else if(e.keyCode==109){document.getElementsByTagName("video")[0].playbackRate -= .25;}
+document.getElementById("logo-icon-container").innerHTML=document.getElementsByTagName("video")[0].playbackRate+" x"
+}
+document.addEventListener('keydown', speedController_);
