@@ -9,12 +9,13 @@ if (!window.skipAdInterval) {
   //if already activated
 	window.skipAdInterval = setInterval(function () {
 		if (__("ytp-ad-text").length != 0) { //if ad
+			document.getElementsByTagName("video")[0].currentTime = document.getElementsByTagName("video")[0].duration
 			document.getElementsByTagName("video")[0].playbackRate = 16; //play video on 16x speed
 		} else {
 			document.getElementsByTagName("video")[0].playbackRate = playbackRate; //play video on normal speed
 		}
-		if (__("ytp-ad-skip-button-text")[0] != undefined) { //if skip button is enabled
-			__("ytp-ad-skip-button-text")[0].click();
+		if (__("ytp-skip-ad-button")[0] != undefined) { //if skip button is enabled
+			__("ytp-skip-ad-button")[0].click();
 		}
 	}, 100);
 	function speedController_(e) {
