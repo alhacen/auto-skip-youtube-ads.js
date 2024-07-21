@@ -1,6 +1,6 @@
 <h1 align="center">auto-skip-youtube-ads.js 👋</h1>
 
-Open [this-page](https://alhacen.github.io/my_gits/auto-skip-youtube-ads.js.html) and drag "Skip Ad" to bookmark
+Open [this-page](https://alhacen.github.io//auto-skip-youtube-ads.js/how-to-use.html) and drag "Skip Ad" to bookmark
 
 ##### `Just click on "Skip Ad" on the bookmark`
 # auto-skip-youtube-ads.js
